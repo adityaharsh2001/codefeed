@@ -67,7 +67,7 @@ const HomeScreen = ({navigation}) => {
         <TouchableOpacity
           style={styles.categoryBtn}
           onPress={() =>
-            navigation.navigate('CardListScreen', {title: 'Fastfood Center'})
+            navigation.navigate('CardListScreen', {title: 'Fastfood'})
           }>
           <View style={styles.categoryIcon}>
             <MaterialCommunityIcons
@@ -76,7 +76,7 @@ const HomeScreen = ({navigation}) => {
               color="#FF6347"
             />
           </View>
-          <Text style={styles.categoryBtnTxt}>Fastfood Center</Text>
+          <Text style={styles.categoryBtnTxt}>Fastfood</Text>
         </TouchableOpacity>
         <TouchableOpacity style={styles.categoryBtn} onPress={() => {}}>
           <View style={styles.categoryIcon}>
@@ -125,10 +125,10 @@ const HomeScreen = ({navigation}) => {
             />
           </View>
           <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
+            <Text style={styles.cardTitle}>Novelty</Text>
             <StarRating ratings={4} reviews={99} />
             <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+              description
             </Text>
           </View>
         </View>
@@ -141,10 +141,10 @@ const HomeScreen = ({navigation}) => {
             />
           </View>
           <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
+            <Text style={styles.cardTitle}>Tandooi Hut</Text>
             <StarRating ratings={4} reviews={99} />
             <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+              blah blah blah
             </Text>
           </View>
         </View>
@@ -157,10 +157,10 @@ const HomeScreen = ({navigation}) => {
             />
           </View>
           <View style={styles.cardInfo}>
-            <Text style={styles.cardTitle}>Amazing Food Place</Text>
+            <Text style={styles.cardTitle}>Blue Diamond</Text>
             <StarRating ratings={4} reviews={99} />
             <Text style={styles.cardDetails}>
-              Amazing description for this amazing place
+              blah blah blah
             </Text>
           </View>
         </View>
